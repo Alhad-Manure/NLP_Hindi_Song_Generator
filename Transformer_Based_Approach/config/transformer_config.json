@@ -1,0 +1,13 @@
+{
+  "language": "hindi",
+  "max_seq_length": 212,
+  "d_model": 256,
+  "nhead": 8,
+  "num_layers": 6,
+  "dim_feedforward": 1024,
+  "dropout": 0.1,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "epochs": 70,
+  "early_stopping_patience": 10
+}
