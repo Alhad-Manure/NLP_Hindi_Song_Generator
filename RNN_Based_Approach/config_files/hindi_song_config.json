@@ -1,0 +1,38 @@
+{
+  "lyrics_file_path": "lyrics_files/all_hindi_combined.txt",
+  "saved_model_path": "saved_models/hindi_song_model4.h5",
+  "saved_lyrics_path": "results/hindi/hindi_new_lyrics4.txt",
+  "history_path": "results/training_history4.json",
+  "save_chart": true,
+  "is_interactive": true,
+  "language": "hindi",
+  "use_song_boundaries": true,
+  "song_separator": "\n--\n",
+  
+  "architecture": "deep",
+  "hp_output_dimensions": 128,
+  "hp_lstm_units": 256,
+  "hp_dropout_rate": 0.3,
+  "hp_epochs": 100,
+  "hp_patience": 10,
+  "lr_patience": 5,
+  "hp_min_delta": 0.00001,
+  "hp_test_size": 0.2,
+  "batch_size": 64,
+  "random_state": 42,
+  
+  "optimizer": "adam",
+  "learning_rate": 0.0001,
+  "use_reduce_lr": true,
+  "save_best_model": true,
+  "save_history": true,
+  "use_tensorboard": false,
+  
+  "seed_text": "मेरे दिल में",
+  "word_count": 60,
+  "word_group_count": 8,
+  "temperature": 0.8,
+  "use_sampling": true,
+  "num_variations": 3,
+  "remove_repetitions": true
+}
